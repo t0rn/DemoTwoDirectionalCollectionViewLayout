@@ -12,6 +12,9 @@
 		DCE288162226AE5A00596E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE288142226AE5A00596E70 /* Main.storyboard */; };
 		DCE288182226AE5C00596E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE288172226AE5C00596E70 /* Assets.xcassets */; };
 		DCE2881B2226AE5C00596E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE288192226AE5C00596E70 /* LaunchScreen.storyboard */; };
+		DCE288232226AE8F00596E70 /* TwoDirectionalCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE288222226AE8F00596E70 /* TwoDirectionalCollectionViewLayout.swift */; };
+		DCE288272226AF9800596E70 /* ColorSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE288252226AF9800596E70 /* ColorSequence.swift */; };
+		DCE288282226AF9800596E70 /* ColorIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE288262226AF9800596E70 /* ColorIterator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		DCE288172226AE5C00596E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCE2881A2226AE5C00596E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCE2881C2226AE5C00596E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE288222226AE8F00596E70 /* TwoDirectionalCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoDirectionalCollectionViewLayout.swift; sourceTree = "<group>"; };
+		DCE288252226AF9800596E70 /* ColorSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSequence.swift; sourceTree = "<group>"; };
+		DCE288262226AF9800596E70 /* ColorIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorIterator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +60,9 @@
 		DCE2880F2226AE5900596E70 /* DemoTwoDirectionalCollectionViewLayout */ = {
 			isa = PBXGroup;
 			children = (
+				DCE288242226AF9800596E70 /* Colors */,
 				DCE288102226AE5A00596E70 /* AppDelegate.swift */,
+				DCE288222226AE8F00596E70 /* TwoDirectionalCollectionViewLayout.swift */,
 				DCE288122226AE5A00596E70 /* ViewController.swift */,
 				DCE288142226AE5A00596E70 /* Main.storyboard */,
 				DCE288172226AE5C00596E70 /* Assets.xcassets */,
@@ -62,6 +70,15 @@
 				DCE2881C2226AE5C00596E70 /* Info.plist */,
 			);
 			path = DemoTwoDirectionalCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		DCE288242226AF9800596E70 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				DCE288252226AF9800596E70 /* ColorSequence.swift */,
+				DCE288262226AF9800596E70 /* ColorIterator.swift */,
+			);
+			path = Colors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE288282226AF9800596E70 /* ColorIterator.swift in Sources */,
 				DCE288132226AE5A00596E70 /* ViewController.swift in Sources */,
+				DCE288232226AE8F00596E70 /* TwoDirectionalCollectionViewLayout.swift in Sources */,
+				DCE288272226AF9800596E70 /* ColorSequence.swift in Sources */,
 				DCE288112226AE5A00596E70 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
