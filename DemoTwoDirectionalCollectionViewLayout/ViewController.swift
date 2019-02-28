@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     lazy var colors: [[UIColor]] = {
-        let colors = stride(from: 360, through: 0, by: -30)
+        let colors = stride(from: 360, through: 0, by: -5)
             .map { (i) -> AnySequence<UIColor> in
                 let phase = CGFloat(i) * CGFloat.pi / 180
                 return UIColor.rainbowSequence(phase1: 0, phase2: phase, phase3: phase * 2)
