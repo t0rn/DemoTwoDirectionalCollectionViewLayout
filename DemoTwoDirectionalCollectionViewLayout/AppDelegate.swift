@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  DemoTwoDirectionalCollectionViewLayout
 //
-//  Created by Алексей Иванов on 27/02/2019.
+//  Created by Alexey Ivanov on 27/02/2019.
 //  Copyright © 2019 Alexey Ivanov. All rights reserved.
 //
 
