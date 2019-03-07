@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DCAF95D3222FCE270046F99C /* TwoDirectionalCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF95D2222FCE270046F99C /* TwoDirectionalCollectionViewLayout.swift */; };
+		A132D9595B162BA7967B687B /* Pods_DemoTwoDirectionalCollectionViewLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07808EA2DF02E51D4E38B3AB /* Pods_DemoTwoDirectionalCollectionViewLayout.framework */; };
 		DCE288112226AE5A00596E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE288102226AE5A00596E70 /* AppDelegate.swift */; };
 		DCE288132226AE5A00596E70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE288122226AE5A00596E70 /* ViewController.swift */; };
 		DCE288162226AE5A00596E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE288142226AE5A00596E70 /* Main.storyboard */; };
@@ -18,7 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DCAF95D2222FCE270046F99C /* TwoDirectionalCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoDirectionalCollectionViewLayout.swift; sourceTree = "<group>"; };
+		07808EA2DF02E51D4E38B3AB /* Pods_DemoTwoDirectionalCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoTwoDirectionalCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		247799664EF1E099C317579F /* Pods-DemoTwoDirectionalCollectionViewLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTwoDirectionalCollectionViewLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoTwoDirectionalCollectionViewLayout/Pods-DemoTwoDirectionalCollectionViewLayout.release.xcconfig"; sourceTree = "<group>"; };
 		DCE2880D2226AE5900596E70 /* DemoTwoDirectionalCollectionViewLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTwoDirectionalCollectionViewLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE288102226AE5A00596E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCE288122226AE5A00596E70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +29,7 @@
 		DCE2881C2226AE5C00596E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCE288252226AF9800596E70 /* ColorSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSequence.swift; sourceTree = "<group>"; };
 		DCE288262226AF9800596E70 /* ColorIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorIterator.swift; sourceTree = "<group>"; };
+		FEC1EF92F081418DB3F993C3 /* Pods-DemoTwoDirectionalCollectionViewLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTwoDirectionalCollectionViewLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoTwoDirectionalCollectionViewLayout/Pods-DemoTwoDirectionalCollectionViewLayout.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,18 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A132D9595B162BA7967B687B /* Pods_DemoTwoDirectionalCollectionViewLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DCAF95D1222FCE270046F99C /* Source */ = {
+		2EDE19F12FE484EDD35431E3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DCAF95D2222FCE270046F99C /* TwoDirectionalCollectionViewLayout.swift */,
+				FEC1EF92F081418DB3F993C3 /* Pods-DemoTwoDirectionalCollectionViewLayout.debug.xcconfig */,
+				247799664EF1E099C317579F /* Pods-DemoTwoDirectionalCollectionViewLayout.release.xcconfig */,
 			);
-			path = Source;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D0B5A1C18B7A42E223E1DDC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07808EA2DF02E51D4E38B3AB /* Pods_DemoTwoDirectionalCollectionViewLayout.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DCE288042226AE5900596E70 = {
@@ -54,6 +66,8 @@
 			children = (
 				DCE2880F2226AE5900596E70 /* DemoTwoDirectionalCollectionViewLayout */,
 				DCE2880E2226AE5900596E70 /* Products */,
+				2EDE19F12FE484EDD35431E3 /* Pods */,
+				D0B5A1C18B7A42E223E1DDC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,7 +82,6 @@
 		DCE2880F2226AE5900596E70 /* DemoTwoDirectionalCollectionViewLayout */ = {
 			isa = PBXGroup;
 			children = (
-				DCAF95D1222FCE270046F99C /* Source */,
 				DCE288242226AF9800596E70 /* Colors */,
 				DCE288102226AE5A00596E70 /* AppDelegate.swift */,
 				DCE288122226AE5A00596E70 /* ViewController.swift */,
@@ -96,6 +109,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCE2881F2226AE5C00596E70 /* Build configuration list for PBXNativeTarget "DemoTwoDirectionalCollectionViewLayout" */;
 			buildPhases = (
+				EE52CA6ADD71DD3F06F0E5FF /* [CP] Check Pods Manifest.lock */,
 				DCE288092226AE5900596E70 /* Sources */,
 				DCE2880A2226AE5900596E70 /* Frameworks */,
 				DCE2880B2226AE5900596E70 /* Resources */,
@@ -155,12 +169,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EE52CA6ADD71DD3F06F0E5FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoTwoDirectionalCollectionViewLayout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCE288092226AE5900596E70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCAF95D3222FCE270046F99C /* TwoDirectionalCollectionViewLayout.swift in Sources */,
 				DCE288282226AF9800596E70 /* ColorIterator.swift in Sources */,
 				DCE288132226AE5A00596E70 /* ViewController.swift in Sources */,
 				DCE288272226AF9800596E70 /* ColorSequence.swift in Sources */,
@@ -308,6 +346,7 @@
 		};
 		DCE288202226AE5C00596E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC1EF92F081418DB3F993C3 /* Pods-DemoTwoDirectionalCollectionViewLayout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -326,6 +365,7 @@
 		};
 		DCE288212226AE5C00596E70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247799664EF1E099C317579F /* Pods-DemoTwoDirectionalCollectionViewLayout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
