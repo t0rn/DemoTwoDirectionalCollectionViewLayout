@@ -1,0 +1,21 @@
+PODS:
+  - TwoDirectionalCollectionViewLayout (0.0.1)
+
+DEPENDENCIES:
+  - TwoDirectionalCollectionViewLayout (from `https://github.com/t0rn/DemoTwoDirectionalCollectionViewLayout`)
+
+EXTERNAL SOURCES:
+  TwoDirectionalCollectionViewLayout:
+    :git: https://github.com/t0rn/DemoTwoDirectionalCollectionViewLayout
+
+CHECKOUT OPTIONS:
+  TwoDirectionalCollectionViewLayout:
+    :commit: aa4b9c892f83b72dceb8f50b08a8746f5bdd7604
+    :git: https://github.com/t0rn/DemoTwoDirectionalCollectionViewLayout
+
+SPEC CHECKSUMS:
+  TwoDirectionalCollectionViewLayout: 82c059bde3c0412f69acf7cfd667e3f41f6d448a
+
+PODFILE CHECKSUM: 385cc1ed76a8986f02f7eaf81a3b5b533b9d9c69
+
+COCOAPODS: 1.5.3

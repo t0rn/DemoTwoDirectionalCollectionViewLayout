@@ -6,7 +6,6 @@
 //
 
 import UIKit
-
 @IBDesignable
 class TwoDirectionalCollectionViewLayout: UICollectionViewLayout {
     

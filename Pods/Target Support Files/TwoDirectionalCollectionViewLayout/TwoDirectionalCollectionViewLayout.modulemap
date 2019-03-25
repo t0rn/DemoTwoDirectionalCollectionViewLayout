@@ -1,0 +1,6 @@
+framework module TwoDirectionalCollectionViewLayout {
+  umbrella header "TwoDirectionalCollectionViewLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}
