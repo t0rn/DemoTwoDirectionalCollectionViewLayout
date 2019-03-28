@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/t0rn/DemoTwoDirectionalCollectionViewLayout"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-
+  swift_version = "4.2"
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
